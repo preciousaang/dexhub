@@ -1,4 +1,6 @@
 import colors from 'vuetify/es5/util/colors'
+import express from 'express'
+import passport from 'passport'
 
 export default {
   /*
@@ -56,13 +58,26 @@ export default {
   */
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    '@nuxtjs/auth'
   ],
   /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options
   */
-  axios: {},
+  axios: {
+    baseURL: process.env.API_BASE_URL
+  },
+  auth: {
+    strategies: {
+      local: {
+        endpoints: {
+          login: { url: '/auth/login', method: 'post', propertyName: 'token' },
+          user: { url: '/auth/user', method: 'get', propertyName: 'user' }
+        }
+      }
+    }
+  },
   /*
   ** vuetify module configuration
   ** https://github.com/nuxt-community/vuetify-module
@@ -89,5 +104,11 @@ export default {
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
-  }
+  },
+  serverMiddleware: [
+    passport.initialize(),
+    express.json(),
+    express.urlencoded({ extended: false }),
+    '~/api'
+  ]
 }
