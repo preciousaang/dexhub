@@ -12,14 +12,15 @@
             text
             exact
             :to="item.link"
-            v-text="item.text"
-          />
+          >
+            {{ item.text }}
+          </v-btn>
         </template>
         <v-btn text small @click="logout">
           Logout
         </v-btn>
       </v-toolbar-items>
-      <v-app-bar-nav-icon class="d-none d-sm-flex d-md-none d-flex d-sm-none" @click="drawer = !drawer" />
+      <v-app-bar-nav-icon class="d-none d-sm-flex d-md-none d-flex d-sm-none" @click="toggleSlider" />
     </v-app-bar>
     <v-navigation-drawer v-model="drawer" class="px-4" app absolute temporary>
       <v-list>
@@ -54,13 +55,16 @@ export default {
         { text: 'Blog', link: '/blog' },
         { text: 'Contact Us', link: '/contact-us' }
       ],
-      drawer: false
+      drawer: null
     }
   },
   methods: {
     async logout () {
       await this.$auth.logout()
       this.$router.push('/login')
+    },
+    toggleSlider () {
+      this.drawer = !this.drawer
     }
   }
 
