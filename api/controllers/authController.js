@@ -11,6 +11,7 @@ module.exports = {
     return res.status(201).json({ user })
   },
   register: (req, res) => {
+    // Work on this implementation
     bcrypt.genSalt(10, (err, salt) => {
       if (err) {
         return res.status(500).json(err)

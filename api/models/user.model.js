@@ -1,14 +1,19 @@
 const mongoose = require('mongoose')
 
 const userSchema = new mongoose.Schema({
+  role: {
+    type: String,
+    required: [true, 'Choose a role'],
+    enum: ['superuser', 'admin', 'manager']
+  },
   username: {
     type: String,
-    required: [true, 'Username is required'],
+    required: [true, 'Please provide a username'],
     unique: true
   },
   password: {
     type: String,
-    required: [true, 'Password is required']
+    required: [true, 'Please provide a password']
   },
   email: {
     type: String,
