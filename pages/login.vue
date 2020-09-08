@@ -21,7 +21,7 @@
             <v-form class="mx-10" @submit.prevent="login">
               <v-text-field v-model="username" solo label="Username" />
               <v-text-field v-model="password" solo label="Password" type="password" />
-              <v-btn class="mb-10" block type="submit" color="info">
+              <v-btn :disabled="disabled" class="mb-10" block type="submit" color="info">
                 Login
               </v-btn>
             </v-form>
@@ -41,11 +41,13 @@ export default {
       username: null,
       password: null,
       error: null,
+      disabled: false,
       snackbar: false
     }
   },
   methods: {
     async login () {
+      this.disabled = true
       this.error = null
       try {
         await this.$auth.loginWith('local', {
@@ -56,6 +58,7 @@ export default {
         })
         this.snackbar = true
       } catch (err) {
+        this.disabled = false
         this.password = null
         this.error = err.response.data
         setTimeout(() => {

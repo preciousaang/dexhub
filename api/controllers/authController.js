@@ -20,7 +20,7 @@ module.exports = {
         if (error) {
           return res.status(500).json(error)
         }
-        User.create({ username: req.body.username, password: hash, email: req.body.email }, (err, user) => {
+        User.create({ username: req.body.username, password: hash, email: req.body.email, role: 'admin' }, (err, user) => {
           if (err) {
             return res.status(422).json(err)
           }
