@@ -7,7 +7,7 @@
       justify="center"
       align="center"
     >
-      <v-col cols="12" lg="4" md="7" sm="7">
+      <v-col cols="12" lg="4" md="5" xs="10" sm="7">
         <v-card>
           <v-container>
             <h2 class="text-center">
@@ -25,6 +25,14 @@
                 Login
               </v-btn>
             </v-form>
+            <div class="d-flex mx-10 justify-space-between">
+              <nuxt-link to="/forgot-password">
+                Forgot Password
+              </nuxt-link>
+              <nuxt-link to="/register">
+                Register
+              </nuxt-link>
+            </div>
           </v-container>
         </v-card>
       </v-col>
@@ -79,4 +87,9 @@ export default {
 }
 </script>
 <style scoped>
+  a{
+    color: rgb(33, 150, 243);
+    text-transform: uppercase;
+    text-decoration: none;
+  }
 </style>
