@@ -76,6 +76,11 @@ export default {
           user: { url: '/auth/user', method: 'get', propertyName: 'user' }
         }
       }
+    },
+    cookie: {
+      options: {
+        secure: true
+      }
     }
   },
   /*
