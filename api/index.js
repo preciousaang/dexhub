@@ -5,6 +5,7 @@ require('./passport-init')(passport)
 
 const authRoutes = require('./routes/auth.route')
 const validateRoutes = require('./routes/validate.route')
+const postRoutes = require('./routes/post.route')
 
 const router = express.Router()
 const app = express()
@@ -18,6 +19,7 @@ router.use((req, res, next) => {
 
 router.use('/auth', authRoutes)
 router.use('/validator', validateRoutes)
+router.use('/posts', postRoutes)
 
 router.use((req, res) => {
   return res.status(404).json('resource not found')
