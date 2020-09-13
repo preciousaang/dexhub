@@ -26,7 +26,7 @@ export default {
       { hid: 'description', name: 'description', content: process.env.APP_NAME || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: '/logo.png' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Lora&family=Nunito&family=Nunito+Sans:ital,wght@0,400;0,600;1,400&display=swap' }
     ]
   },

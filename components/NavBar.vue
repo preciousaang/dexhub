@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-app-bar dense flat app>
-      <v-toolbar-title>DexHub Creations</v-toolbar-title>
+      <v-img src="/logo.png" contain height="100%" />
       <v-spacer />
       <v-toolbar-items class="d-sm-none d-md-flex d-md-none d-none">
         <template v-for="(item, i) in items">
