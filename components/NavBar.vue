@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-app-bar dense flat app>
+    <v-app-bar color="transparent" fixed dense flat app>
       <v-img width="0px" src="/logo.png" contain height="70%" />
       <v-spacer />
       <v-toolbar-items class="d-sm-none d-md-flex d-md-none d-none">
