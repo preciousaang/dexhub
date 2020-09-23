@@ -131,21 +131,45 @@
               <v-slide-item>
                 <v-card  width="300" class="ma-4" elevation="4" height="100%">
                   <v-img height="50%" src="/grey.jpg" />
+                  <v-card-title>
+                    Demo Title
+                  </v-card-title>
+                  <v-card-text>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                  </v-card-text>
                 </v-card>
               </v-slide-item>
               <v-slide-item>
                 <v-card width="300" class="ma-4" height="100%">
                   <v-img height="50%" src="/grey.jpg" />
+                  <v-card-title>
+                    Demo Title
+                  </v-card-title>
+                  <v-card-text>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                  </v-card-text>
                 </v-card>
               </v-slide-item>
               <v-slide-item>
                 <v-card width="300" class="ma-4" height="100%">
                   <v-img height="50%" src="/grey.jpg" />
+                  <v-card-title>
+                    Demo Title
+                  </v-card-title>
+                  <v-card-text>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                  </v-card-text>
                 </v-card>
               </v-slide-item>
               <v-slide-item>
                 <v-card width="300" class="ma-4" height="100%">
                   <v-img height="50%" src="/grey.jpg" />
+                  <v-card-title>
+                    Demo Title
+                  </v-card-title>
+                  <v-card-text>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                  </v-card-text>
                 </v-card>
               </v-slide-item>
             </v-slide-group>
