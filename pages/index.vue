@@ -64,49 +64,49 @@
         </v-col>
         <v-col cols="12" lg="6" align-self="center">
           <v-row align="center" justify="center">
-            <v-col cols="12" lg="3" sm="6" xs="6">
+            <v-col cols="12" lg="3" sm="3" md="3" xs="3">
               <v-img class="ma-3" src="/orange_circle.png" />
               <h4 class="text-center text--secondary">
                 Art
               </h4>
             </v-col>
-            <v-col cols="12" lg="3" sm="6" xs="6">
+            <v-col cols="12" lg="3" md="3" sm="3" xs="3">
               <v-img class="ma-3" src="/orange_circle.png" />
               <h4 class="text-center text--secondary">
                 Art
               </h4>
             </v-col>
-            <v-col cols="12" lg="3">
+            <v-col cols="12" lg="3" sm="3" xs="3" md="3">
               <v-img class="ma-3" src="/orange_circle.png" />
               <h4 class="text-center text--secondary">
                 Art
               </h4>
             </v-col>
-            <v-col cols="12" lg="3">
+            <v-col cols="12" lg="3" sm="3" xs="3" md="3">
               <v-img class="ma-3" src="/orange_circle.png" />
               <h4 class="text-center text--secondary">
                 Art
               </h4>
             </v-col>
-            <v-col cols="12" lg="3">
+            <v-col cols="12" lg="3" sm="3" xs="3" md="3">
               <v-img class="ma-3" src="/orange_circle.png" />
               <h4 class="text-center text--secondary">
                 Art
               </h4>
             </v-col>
-            <v-col cols="12" lg="3">
+            <v-col cols="12" lg="3" sm="3" xs="3" md="3">
               <v-img class="ma-3" src="/orange_circle.png" />
               <h4 class="text-center text--secondary">
                 Art
               </h4>
             </v-col>
-            <v-col cols="12" lg="3">
+            <v-col cols="12" lg="3"  sm="3" xs="3" md="3">
               <v-img class="ma-3" src="/orange_circle.png" />
               <h4 class="text-center text--secondary">
                 Art
               </h4>
             </v-col>
-            <v-col cols="12" lg="3">
+            <v-col cols="12" lg="3"  sm="3" xs="3" md="3">
               <v-img class="ma-3" src="/orange_circle.png" />
               <h4 class="text-center text--secondary">
                 Art
