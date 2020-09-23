@@ -31,12 +31,12 @@
     </v-carousel>
     <v-container fluid>
       <v-row>
-        <v-col cols="12" lg="6" align-self="center">
+        <v-col data-aos="fade-left" data-aos-duration="3000" cols="12" lg="6" align-self="center">
           <h1 class="primary-story text-center">
             DexHub Creations is a brand
           </h1>
         </v-col>
-        <v-col cols="12" lg="6">
+        <v-col data-aos="flip-down-left" data-aos-duration="3000" cols="12" lg="6">
           <h2 class="primary-story mb-3">
             Our Community
           </h2>
@@ -49,88 +49,96 @@
           </v-btn>
         </v-col>
       </v-row>
-      <v-row>
-        <v-col class="pa-15" cols="12" lg="6">
-          <h2 class="primary-story mb-3">
-            Our Community
-          </h2>
-          <v-divider />
-          <p class="story text--secondary">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-          </p>
-          <v-btn class="mt-3" large color="info" outlined>
-            Learn More
-          </v-btn>
-        </v-col>
-        <v-col cols="12" lg="6" align-self="center">
-          <v-row align="center" justify="center">
-            <v-col cols="12" lg="3" sm="3" md="3" xs="3">
-              <v-img class="ma-3" src="/orange_circle.png" />
-              <h4 class="text-center text--secondary">
-                Art
-              </h4>
-            </v-col>
-            <v-col cols="12" lg="3" md="3" sm="3" xs="3">
-              <v-img class="ma-3" src="/orange_circle.png" />
-              <h4 class="text-center text--secondary">
-                Art
-              </h4>
-            </v-col>
-            <v-col cols="12" lg="3" sm="3" xs="3" md="3">
-              <v-img class="ma-3" src="/orange_circle.png" />
-              <h4 class="text-center text--secondary">
-                Art
-              </h4>
-            </v-col>
-            <v-col cols="12" lg="3" sm="3" xs="3" md="3">
-              <v-img class="ma-3" src="/orange_circle.png" />
-              <h4 class="text-center text--secondary">
-                Art
-              </h4>
-            </v-col>
-            <v-col cols="12" lg="3" sm="3" xs="3" md="3">
-              <v-img class="ma-3" src="/orange_circle.png" />
-              <h4 class="text-center text--secondary">
-                Art
-              </h4>
-            </v-col>
-            <v-col cols="12" lg="3" sm="3" xs="3" md="3">
-              <v-img class="ma-3" src="/orange_circle.png" />
-              <h4 class="text-center text--secondary">
-                Art
-              </h4>
-            </v-col>
-            <v-col cols="12" lg="3"  sm="3" xs="3" md="3">
-              <v-img class="ma-3" src="/orange_circle.png" />
-              <h4 class="text-center text--secondary">
-                Art
-              </h4>
-            </v-col>
-            <v-col cols="12" lg="3"  sm="3" xs="3" md="3">
-              <v-img class="ma-3" src="/orange_circle.png" />
-              <h4 class="text-center text--secondary">
-                Art
-              </h4>
-            </v-col>
-          </v-row>
-        </v-col>
-      </v-row>
+      <div data-aos="fade-up" data-aos-duration="3000">
+        <v-row>
+          <v-col class="pa-15" cols="12" lg="6">
+            <h2 class="primary-story mb-3">
+              Explore the projects we love
+            </h2>
+            <v-divider />
+            <p class="story text--secondary">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+            </p>
+            <v-btn class="mt-3" large color="info" outlined>
+              Learn More
+            </v-btn>
+          </v-col>
+          <v-col cols="12" lg="6" align-self="center">
+            <v-row data-aos="flip-left" data-aos-easing="linear" data-aos-duration="7000" align="center" justify="center">
+              <v-col
+                cols="12"
+                lg="3"
+                sm="3"
+                md="3"
+                xs="3"
+              >
+                <v-img class="ma-5" src="/orange_circle.png" />
+                <h4 class="text-center text--secondary">
+                  Art
+                </h4>
+              </v-col>
+              <v-col cols="12" lg="3" md="3" sm="3" xs="3">
+                <v-img class="ma-5" src="/orange_circle.png" />
+                <h4 class="text-center text--secondary">
+                  Art
+                </h4>
+              </v-col>
+              <v-col cols="12" lg="3" sm="3" xs="3" md="3">
+                <v-img class="ma-5" src="/orange_circle.png" />
+                <h4 class="text-center text--secondary">
+                  Art
+                </h4>
+              </v-col>
+              <v-col cols="12" lg="3" sm="3" xs="3" md="3">
+                <v-img class="ma-5" src="/orange_circle.png" />
+                <h4 class="text-center text--secondary">
+                  Art
+                </h4>
+              </v-col>
+              <v-col cols="12" lg="3" sm="3" xs="3" md="3">
+                <v-img class="ma-5" src="/orange_circle.png" />
+                <h4 class="text-center text--secondary">
+                  Art
+                </h4>
+              </v-col>
+              <v-col cols="12" lg="3" sm="3" xs="3" md="3">
+                <v-img class="ma-5" src="/orange_circle.png" />
+                <h4 class="text-center text--secondary">
+                  Art
+                </h4>
+              </v-col>
+              <v-col cols="12" lg="3" sm="3" xs="3" md="3">
+                <v-img class="ma-5" src="/orange_circle.png" />
+                <h4 class="text-center text--secondary">
+                  Art
+                </h4>
+              </v-col>
+              <v-col cols="12" lg="3" sm="3" xs="3" md="3">
+                <v-img class="ma-5" src="/orange_circle.png" />
+                <h4 class="text-center text--secondary">
+                  Art
+                </h4>
+              </v-col>
+            </v-row>
+          </v-col>
+        </v-row>
+      </div>
       <v-container>
         <v-row justify="center" align="center">
-          <v-col align-self="center" cols="12" lg="3">
-            <h3 class="text--secondary">
+          <v-col align-self="center" cols="12" lg="3" data-aos="zoom-in-right" data-aos-duration="3000">
+            <h3 class="primary-story">
               Upcoming Projects
             </h3>
             <v-divider />
-            <p>
+            <p class="story text--secondary">
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
             </p>
           </v-col>
-          <v-col cols="12" lg="9">
+          <v-col cols="12" lg="9" data-aos="zoom-in-left" data-aos-duration="10000">
             <v-slide-group center-active show-arrows>
               <v-slide-item>
-                <v-card  width="300" class="ma-4" elevation="4" height="100%">
-                  <v-img height="50%" src="/grey.jpg" />
+                <v-card width="300" class="ma-4" elevation="4" height="100%">
+                  <v-img class="ma-5" height="50%" src="/grey.jpg" />
                   <v-card-title>
                     Demo Title
                   </v-card-title>
@@ -140,8 +148,8 @@
                 </v-card>
               </v-slide-item>
               <v-slide-item>
-                <v-card width="300" class="ma-4" height="100%">
-                  <v-img height="50%" src="/grey.jpg" />
+                <v-card width="300" elevation="4" class="ma-4" height="100%">
+                  <v-img class="ma-5" height="50%" src="/grey.jpg" />
                   <v-card-title>
                     Demo Title
                   </v-card-title>
@@ -151,8 +159,8 @@
                 </v-card>
               </v-slide-item>
               <v-slide-item>
-                <v-card width="300" class="ma-4" height="100%">
-                  <v-img height="50%" src="/grey.jpg" />
+                <v-card width="300" elevation="4" class="ma-4" height="100%">
+                  <v-img class="ma-5" height="50%" src="/grey.jpg" />
                   <v-card-title>
                     Demo Title
                   </v-card-title>
@@ -162,8 +170,8 @@
                 </v-card>
               </v-slide-item>
               <v-slide-item>
-                <v-card width="300" class="ma-4" height="100%">
-                  <v-img height="50%" src="/grey.jpg" />
+                <v-card width="300" elevation="4" class="ma-4" height="100%">
+                  <v-img class="ma-5" height="50%" src="/grey.jpg" />
                   <v-card-title>
                     Demo Title
                   </v-card-title>
@@ -173,25 +181,14 @@
                 </v-card>
               </v-slide-item>
             </v-slide-group>
-            <!-- <v-card height="400">
-              <v-img height="50%" src="/grey.jpg" />
-            </v-card> -->
           </v-col>
-          <!-- <v-col cols="12" lg="3">
-            <v-card height="400">
-              <v-img height="50%" src="/grey.jpg" />
-            </v-card>
-          </v-col>
-          <v-col cols="12" lg="3">
-            <v-card height="400">
-              <v-img height="50%" src="/grey.jpg" />
-            </v-card>
-          </v-col> -->
         </v-row>
       </v-container>
       <v-row justify="center" align="center">
         <v-col cols="12" lg="6" xs="6" md="6" sm="6">
-          <h3 class="text-center">What our members have to say</h3>
+          <h3 class="">
+            What our members have to say
+          </h3>
         </v-col>
         <v-col cols="12" lg="6" xs="6" md="6">
           <v-img class="mr-3" src="/dex-favicon.png" />
