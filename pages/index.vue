@@ -38,7 +38,7 @@
         </v-col>
         <v-col cols="12" lg="6">
           <h2 class="primary-story mb-3">
-            What is Lorem Ipsum?
+            Our Community
           </h2>
           <v-divider />
           <p class="story text--secondary">
@@ -50,81 +50,127 @@
         </v-col>
       </v-row>
       <v-row>
-        <v-col cols="12" lg="12">
-          <h1 class="text-center">
+        <v-col class="pa-15" cols="12" lg="6">
+          <h2 class="primary-story mb-3">
             Our Community
-          </h1>
+          </h2>
           <v-divider />
-          <v-row>
-            <v-col cols="12" lg="4">
-              <v-card color="success">
-                <v-card-title>
-                  AddyFx Placeholder
-                </v-card-title>
-                <v-card-subtitle>
-                  Do the thing
-                </v-card-subtitle>
-                <v-card-text>
-                  Anp
-                </v-card-text>
-              </v-card>
+          <p class="story text--secondary">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+          </p>
+          <v-btn class="mt-3" large color="info" outlined>
+            Learn More
+          </v-btn>
+        </v-col>
+        <v-col cols="12" lg="6" align-self="center">
+          <v-row align="center" justify="center">
+            <v-col cols="12" lg="3" sm="6" xs="6">
+              <v-img class="ma-3" src="/orange_circle.png" />
+              <h4 class="text-center text--secondary">
+                Art
+              </h4>
             </v-col>
-            <v-col cols="12" lg="4">
-              <v-card color="info">
-                <v-card-title>
-                  AppDex Placeholder
-                </v-card-title>
-                <v-card-subtitle>
-                  Space x
-                </v-card-subtitle>
-                <v-card-text>
-                  Space x
-                </v-card-text>
-              </v-card>
+            <v-col cols="12" lg="3" sm="6" xs="6">
+              <v-img class="ma-3" src="/orange_circle.png" />
+              <h4 class="text-center text--secondary">
+                Art
+              </h4>
             </v-col>
-            <v-col cols="12" lg="4">
-              <v-card color="error">
-                <v-card-title>
-                  Lodex Placeholder
-                </v-card-title>
-                <v-card-subtitle>
-                  Space x
-                </v-card-subtitle>
-                <v-card-text>
-                  Space x
-                </v-card-text>
-              </v-card>
+            <v-col cols="12" lg="3">
+              <v-img class="ma-3" src="/orange_circle.png" />
+              <h4 class="text-center text--secondary">
+                Art
+              </h4>
+            </v-col>
+            <v-col cols="12" lg="3">
+              <v-img class="ma-3" src="/orange_circle.png" />
+              <h4 class="text-center text--secondary">
+                Art
+              </h4>
+            </v-col>
+            <v-col cols="12" lg="3">
+              <v-img class="ma-3" src="/orange_circle.png" />
+              <h4 class="text-center text--secondary">
+                Art
+              </h4>
+            </v-col>
+            <v-col cols="12" lg="3">
+              <v-img class="ma-3" src="/orange_circle.png" />
+              <h4 class="text-center text--secondary">
+                Art
+              </h4>
+            </v-col>
+            <v-col cols="12" lg="3">
+              <v-img class="ma-3" src="/orange_circle.png" />
+              <h4 class="text-center text--secondary">
+                Art
+              </h4>
+            </v-col>
+            <v-col cols="12" lg="3">
+              <v-img class="ma-3" src="/orange_circle.png" />
+              <h4 class="text-center text--secondary">
+                Art
+              </h4>
             </v-col>
           </v-row>
         </v-col>
-        <v-col cols="12" lg="12">
-          <h1 class="primary-story text-center">
-            Our Partners
-          </h1>
-          <v-divider />
-        </v-col>
-        <v-col cols="12" lg="6">
-          <v-sheet height="300px">
-            <h3>A Div</h3>
-          </v-sheet>
-        </v-col>
-        <v-col col="12" lg="6">
-          <h1>
-            Some text to type
-          </h1>
-          <v-subheader>
-            Lorem ipsum is some gibberish that we type to occupy space
-          </v-subheader>
-        </v-col>
       </v-row>
+      <v-container>
+        <v-row justify="center" align="center">
+          <v-col align-self="center" cols="12" lg="3">
+            <h3 class="text--secondary">
+              Upcoming Projects
+            </h3>
+            <v-divider />
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            </p>
+          </v-col>
+          <v-col cols="12" lg="9">
+            <v-slide-group center-active show-arrows>
+              <v-slide-item>
+                <v-card  width="300" class="ma-4" elevation="4" height="100%">
+                  <v-img height="50%" src="/grey.jpg" />
+                </v-card>
+              </v-slide-item>
+              <v-slide-item>
+                <v-card width="300" class="ma-4" height="100%">
+                  <v-img height="50%" src="/grey.jpg" />
+                </v-card>
+              </v-slide-item>
+              <v-slide-item>
+                <v-card width="300" class="ma-4" height="100%">
+                  <v-img height="50%" src="/grey.jpg" />
+                </v-card>
+              </v-slide-item>
+              <v-slide-item>
+                <v-card width="300" class="ma-4" height="100%">
+                  <v-img height="50%" src="/grey.jpg" />
+                </v-card>
+              </v-slide-item>
+            </v-slide-group>
+            <!-- <v-card height="400">
+              <v-img height="50%" src="/grey.jpg" />
+            </v-card> -->
+          </v-col>
+          <!-- <v-col cols="12" lg="3">
+            <v-card height="400">
+              <v-img height="50%" src="/grey.jpg" />
+            </v-card>
+          </v-col>
+          <v-col cols="12" lg="3">
+            <v-card height="400">
+              <v-img height="50%" src="/grey.jpg" />
+            </v-card>
+          </v-col> -->
+        </v-row>
+      </v-container>
       <v-row justify="center" align="center">
-        <v-col cols="12" lg="6">
-          <h2 class="text-center">
-            Subscribe To Our News Letter
-          </h2>
-          <p class="text-center">
-            __________
-          </p>
+        <v-col cols="12" lg="6" xs="6" md="6" sm="6">
+          <h3 class="text-center">What our members have to say</h3>
+        </v-col>
+        <v-col cols="12" lg="6" xs="6" md="6">
+          <v-img class="mr-3" src="/dex-favicon.png" />
         </v-col>
         <v-col cols="12" lg="6" class="pa-6">
           <v-form>
@@ -144,7 +190,7 @@
         <p style="color: #df5f20; font-weight: bold;" class="text-center">
           ________
         </p>
-        <v-sheet class="pa-8" height="424" color="#df5f20" dark>
+        <v-sheet class="pa-8" height="100%" color="#df5f20" dark>
           <v-row class="fill-height">
             <v-col align-self="center" lg="6" cols="12">
               <h1 class="primary-story text-center">
