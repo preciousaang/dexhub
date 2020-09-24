@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-app-bar color="transparent" dense flat app>
+    <v-app-bar color="" dense flat app>
       <v-img width="0px" src="/logo.png" contain height="70%" />
       <v-spacer />
       <v-toolbar-items class="d-sm-none d-md-flex d-md-none d-none">
@@ -51,6 +51,7 @@ export default {
       items: [
         { text: 'Home', link: '/' },
         { text: 'About Us', link: '/about-us' },
+        { text: 'Team', link: '/team' },
         { text: 'Services', link: '/services' },
         { text: 'Blog', link: '/blog' },
         { text: 'Contact Us', link: '/contact-us' }
