@@ -185,13 +185,20 @@
         </v-row>
       </v-container>
       <v-divider />
-      <h1 class="text-center">
+      <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-easing="linear" class="text-center">
         What Our Cients Say
       </h1>
-      <p style="color: #df5f20; font-weight: bold;" class="text-center">
+      <p data-aos="fade-right" data-aos-duration="1500" data-aos-easing="linear" style="color: #df5f20; font-weight: bold;" class="text-center">
         ________
       </p>
-      <v-carousel hide-delimiter-background delimiter-icon="mdi-minus" height="300">
+      <v-carousel
+        data-aos="zoom-in"
+        data-aos-duration="1500"
+        data-aos-easing="linear"
+        hide-delimiter-background
+        delimiter-icon="mdi-minus"
+        height="300"
+      >
         <v-carousel-item v-for="n in 5" :key="n">
           <v-sheet height="100%" tile>
             <v-container>
