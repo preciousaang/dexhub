@@ -16,9 +16,9 @@
             {{ item.text }}
           </v-btn>
         </template>
-        <v-btn text small @click="logout">
+        <!-- <v-btn text small @click="logout">
           Logout
-        </v-btn>
+        </v-btn> -->
       </v-toolbar-items>
       <v-app-bar-nav-icon class="d-none d-sm-flex d-md-none d-flex d-sm-none" @click="toggleSlider" />
     </v-app-bar>
@@ -53,7 +53,7 @@ export default {
         { text: 'About Us', link: '/about-us' },
         { text: 'Team', link: '/team' },
         { text: 'Services', link: '/services' },
-        { text: 'Blog', link: '/blog' },
+        // { text: 'Blog', link: '/blog' },
         { text: 'Contact Us', link: '/contact-us' }
       ],
       drawer: null

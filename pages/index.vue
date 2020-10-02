@@ -184,24 +184,37 @@
           </v-col>
         </v-row>
       </v-container>
-      <v-row justify="center" align="center">
-        <v-col cols="12" lg="6" xs="6" md="6" sm="6">
-          <h3 class="">
-            What our members have to say
-          </h3>
-        </v-col>
-        <v-col cols="12" lg="6" xs="6" md="6">
-          <v-img class="mr-3" src="/dex-favicon.png" />
-        </v-col>
-        <v-col cols="12" lg="6" class="pa-6">
-          <v-form>
-            <v-text-field v-model="email" label="E-mail" />
-            <v-btn block type="submit" color="info">
-              Subscribe
-            </v-btn>
-          </v-form>
-        </v-col>
-      </v-row>
+      <v-divider />
+      <h1 class="text-center">
+        What Our Cients Say
+      </h1>
+      <p style="color: #df5f20; font-weight: bold;" class="text-center">
+        ________
+      </p>
+      <v-carousel hide-delimiter-background delimiter-icon="mdi-minus" height="300">
+        <v-carousel-item v-for="n in 5" :key="n">
+          <v-sheet height="100%" tile>
+            <v-container>
+              <v-row class="fill-height" justify="center" align="center">
+                <v-col cols="12" lg="6">
+                  <v-card>
+                    <v-card-title>
+                      Hello
+                    </v-card-title>
+                  </v-card>
+                </v-col>
+                <v-col cols="12" lg="6">
+                  <v-card>
+                    <v-card-title>
+                      Hello
+                    </v-card-title>
+                  </v-card>
+                </v-col>
+              </v-row>
+            </v-container>
+          </v-sheet>
+        </v-carousel-item>
+      </v-carousel>
     </v-container>
     <v-row>
       <v-col cols="12" lg="12">
