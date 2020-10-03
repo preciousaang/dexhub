@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-carousel>
+    <v-carousel hide-delimiter-background delimiter-icon="mdi-minus">
       <v-carousel-item src="/dude-1.jpg">
         <v-row class="fill-height" justify="center" align="center">
           <v-col cols="12" align-self="center">
@@ -185,46 +185,57 @@
         </v-row>
       </v-container>
       <v-divider />
-      <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-easing="linear" class="text-center">
+      <h1 class="text-center primary-story mt-5">
         What Our Cients Say
       </h1>
-      <p data-aos="fade-right" data-aos-duration="1500" data-aos-easing="linear" style="color: #df5f20; font-weight: bold;" class="text-center">
+      <p style="color: #df5f20; font-weight: bold;" class="text-center">
         ________
       </p>
-      <v-carousel
-        data-aos="zoom-in"
-        data-aos-duration="1500"
-        data-aos-easing="linear"
-        hide-delimiter-background
-        delimiter-icon="mdi-minus"
-        height="300"
-      >
-        <v-carousel-item v-for="n in 5" :key="n">
-          <v-sheet height="100%" tile>
-            <v-container>
-              <v-row class="fill-height" justify="center" align="center">
-                <v-col cols="12" lg="6">
-                  <v-card>
-                    <v-card-title>
-                      Hello
-                    </v-card-title>
-                  </v-card>
-                </v-col>
-                <v-col cols="12" lg="6">
-                  <v-card>
-                    <v-card-title>
-                      Hello
-                    </v-card-title>
-                  </v-card>
-                </v-col>
-              </v-row>
-            </v-container>
-          </v-sheet>
-        </v-carousel-item>
-      </v-carousel>
+      <v-row justify="center" align="center">
+        <v-col cols="12" lg="10">
+          <v-carousel hide-delimiter-background delimiter-icon="mdi-minus">
+            <v-carousel-item>
+              <v-sheet height="100%">
+                <v-row justify="center" align="center" height="center" class="fill-height">
+                  <div>
+                    <v-img src="/earth-1.jpg" width="150" class="mx-auto rounded-circle mb-5" height="150" />
+                    <p class="subtitle-1 px-10 text-center">
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                    </p>
+                    <h1 class="text-center">
+                      Alan Shore
+                    </h1>
+                    <p class="text-center subtitle-1">
+                      Fictional Character
+                    </p>
+                  </div>
+                </v-row>
+              </v-sheet>
+            </v-carousel-item>
+            <v-carousel-item>
+              <v-sheet height="100%">
+                <v-row justify="center" align="center" height="center" class="fill-height">
+                  <div>
+                    <v-img src="/earth-1.jpg" width="150" class="mx-auto rounded-circle mb-5" height="150" />
+                    <p class="subtitle-1 px-10 text-center">
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                    </p>
+                    <h1 class="text-center">
+                      Alan Shore
+                    </h1>
+                    <p class="text-center subtitle-1">
+                      Fictional Character
+                    </p>
+                  </div>
+                </v-row>
+              </v-sheet>
+            </v-carousel-item>
+          </v-carousel>
+        </v-col>
+      </v-row>
     </v-container>
     <v-row>
-      <v-col cols="12" lg="12">
+      <v-col align-self="center" cols="12" lg="12">
         <h1 class="text-center">
           Get In Touch
         </h1>
@@ -287,4 +298,5 @@ export default {
 .primary-story {
   font-family: 'Nunito', sans-serif;
 }
+
 </style>

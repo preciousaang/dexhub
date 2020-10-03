@@ -1,6 +1,4 @@
 import colors from 'vuetify/es5/util/colors'
-import express from 'express'
-import passport from 'passport'
 
 export default {
   /*
@@ -35,6 +33,13 @@ export default {
   */
   css: [
   ],
+  // script: [
+  //   {
+  //     src: 'https://code.jquery.com/jquery-2.2.4.min.js',
+  //     integrity: 'sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=',
+  //     crossorigin: 'anonymous'
+  //   }
+  // ],
   /*
   ** Plugins to load before mounting the App
   ** https://nuxtjs.org/guide/plugins
@@ -113,9 +118,6 @@ export default {
   build: {
   },
   serverMiddleware: [
-    passport.initialize(),
-    express.json(),
-    express.urlencoded({ extended: false }),
-    '~/api'
+
   ]
 }
