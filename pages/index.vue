@@ -1,48 +1,53 @@
 <template>
   <div>
-    <v-carousel hide-delimiter-background delimiter-icon="mdi-minus">
-      <v-carousel-item src="/dude-1.jpg">
-        <v-row class="fill-height" justify="center" align="center">
-          <v-col cols="12" align-self="center">
-            <h1 class="text-center">
-              CREATE THE DREAM
-            </h1>
+    <v-sheet class="curve" color="#eef4f6">
+      <v-carousel hide-delimiter-background delimiter-icon="mdi-minus">
+        <v-carousel-item src="/dude-1.jpg">
+          <v-row class="fill-height" justify="center" align="center">
+            <v-col cols="12" align-self="center">
+              <h1 class="text-center">
+                CREATE THE DREAM
+              </h1>
+            </v-col>
+          </v-row>
+        </v-carousel-item>
+        <v-carousel-item src="/office-1.jpg">
+          <v-row class="fill-height" justify="center" align="center">
+            <v-col cols="12" align-self="center">
+              <h1 class="text-center">
+                EXPERIENCE THE DESIGN
+              </h1>
+            </v-col>
+          </v-row>
+        </v-carousel-item>
+        <v-carousel-item src="/office-2.jpg">
+          <v-row class="fill-height" justify="center" align="center">
+            <v-col cols="12" align-self="center">
+              <h1 class="text-center">
+                INNOVATE THE FUTURE
+              </h1>
+            </v-col>
+          </v-row>
+        </v-carousel-item>
+      </v-carousel>
+      <v-container fluid>
+        <v-row>
+          <v-col data-aos="fade-down" align-self="center" cols="12" lg="6">
+            <v-img src="/networking-png-picture.png" />
+          </v-col>
+          <v-col data-aos="fade-left" align-self="center" cols="12" lg="6">
+            <h2 class="mb-5">
+              Our Community
+            </h2>
+            <p class="subtitle-1">
+              t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+            </p>
           </v-col>
         </v-row>
-      </v-carousel-item>
-      <v-carousel-item src="/office-1.jpg">
-        <v-row class="fill-height" justify="center" align="center">
-          <v-col cols="12" align-self="center">
-            <h1 class="text-center">
-              EXPERIENCE THE DESIGN
-            </h1>
-          </v-col>
-        </v-row>
-      </v-carousel-item>
-      <v-carousel-item src="/office-2.jpg">
-        <v-row class="fill-height" justify="center" align="center">
-          <v-col cols="12" align-self="center">
-            <h1 class="text-center">
-              INNOVATE THE FUTURE
-            </h1>
-          </v-col>
-        </v-row>
-      </v-carousel-item>
-    </v-carousel>
+      </v-container>
+    </v-sheet>
+    <v-img width="10%" src="/dex-favicon-1.png" />
     <v-container fluid>
-      <v-row>
-        <v-col data-aos="fade-down" align-self="center" cols="12" lg="6">
-          <v-img src="/networking-png-picture.png" />
-        </v-col>
-        <v-col data-aos="fade-left" align-self="center" cols="12" lg="6">
-          <h2 class="mb-5">
-            Our Community
-          </h2>
-          <p class="subtitle-1">
-            t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-          </p>
-        </v-col>
-      </v-row>
       <v-row>
         <v-col data-aos="fade-right" align-self="center" cols="12" lg="6">
           <h2 class="mb-5 ml-lg-10">
@@ -158,9 +163,9 @@
                   <p class="subtitle-1 px-10 text-center">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
                   </p>
-                  <h1 class="text-center">
+                  <h2 class="text-center">
                     Alan Shore
-                  </h1>
+                  </h2>
                   <p class="text-center subtitle-1">
                     Fictional Character
                   </p>
@@ -169,16 +174,16 @@
             </v-sheet>
           </v-carousel-item>
           <v-carousel-item>
-            <v-sheet height="100%">
+            <v-sheet class="pa-10" height="100%">
               <v-row justify="center" align="center" height="center" class="fill-height">
                 <div>
                   <v-img src="/earth-1.jpg" width="150" class="mx-auto rounded-circle mb-5" height="150" />
                   <p class="subtitle-1 px-10 text-center">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
                   </p>
-                  <h1 class="text-center">
+                  <h2 class="text-center">
                     Alan Shore
-                  </h1>
+                  </h2>
                   <p class="text-center subtitle-1">
                     Fictional Character
                   </p>
@@ -253,6 +258,11 @@ export default {
 }
 .primary-story {
   font-family: 'Nunito', sans-serif;
+}
+
+.curve {
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 25%;
 }
 
 </style>
