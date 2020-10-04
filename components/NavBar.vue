@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-app-bar color="" dense flat app>
+    <v-app-bar color="transparent" dense flat app>
       <v-img width="0px" src="/logo.png" contain height="70%" />
       <v-spacer />
       <v-toolbar-items class="d-sm-none d-md-flex d-md-none d-none">
@@ -22,7 +22,7 @@
       </v-toolbar-items>
       <v-app-bar-nav-icon class="d-none d-sm-flex d-md-none d-flex d-sm-none" @click="toggleSlider" />
     </v-app-bar>
-    <v-navigation-drawer v-model="drawer" class="px-4" app absolute temporary>
+    <v-navigation-drawer v-model="drawer" class="px-4" app temporary>
       <v-list>
         <v-list-item-content>
           <v-list-item-title class="title">
