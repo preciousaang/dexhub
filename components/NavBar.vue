@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-app-bar color="transparent" dense flat app>
-      <v-img width="0px" src="/logo.png" contain height="70%" />
+      <v-img width="0px" src="/logo.png" contain class="ml-n15" height="50%" />
       <v-spacer />
       <v-toolbar-items class="d-sm-none d-md-flex d-md-none d-none">
         <template v-for="(item, i) in items">
