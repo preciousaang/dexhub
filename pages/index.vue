@@ -31,10 +31,10 @@
     </v-carousel>
     <v-container fluid>
       <v-row>
-        <v-col align-self="center" cols="12" lg="6">
+        <v-col data-aos="fade-down" align-self="center" cols="12" lg="6">
           <v-img src="/networking-png-picture.png" />
         </v-col>
-        <v-col align-self="center" cols="12" lg="6">
+        <v-col data-aos="fade-left" align-self="center" cols="12" lg="6">
           <h2 class="mb-5">
             Our Community
           </h2>
@@ -44,7 +44,7 @@
         </v-col>
       </v-row>
       <v-row>
-        <v-col align-self="center" cols="12" lg="6">
+        <v-col data-aos="fade-right" align-self="center" cols="12" lg="6">
           <h2 class="mb-5 ml-lg-10">
             Projects We Love
           </h2>
@@ -55,7 +55,7 @@
             Discover
           </v-btn>
         </v-col>
-        <v-col align-self="center" cols="12" lg="6">
+        <v-col data-aos="fade-up" align-self="center" cols="12" lg="6">
           <v-row>
             <v-col
               align-self="center"
